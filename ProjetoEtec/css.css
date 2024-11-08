@@ -1,0 +1,204 @@
+/*css miguel*/
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+}
+
+.divs {
+    background-color: #FAFAD2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    background-color: #f5f5dc;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 10px;
+}
+/*css miguel*/
+
+/*css pedro*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 215px;
+    height: 190px;
+    left: -6px;
+    top: -15px;
+}
+
+
+#nav_bar {
+    position: absolute;
+    width: 1420px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, #EEEDDF 0%, #F3EEB4 32%, #FFF159 100%);
+    border-radius: 20px;
+}
+
+#nav_links a {
+    position: relative;
+    width: 178px;
+    height: 29px;
+    left: 183px;
+    top: 59px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    justify-content: space-between; 
+    padding: 30px; 
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login span {
+    position: absolute;
+    width: 151px;
+    height: 22px;
+    left: 990px;
+    top: 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.login input[type="text"] {
+position: absolute;
+width: 261px;
+height: 43px;
+left: 1099px;
+top: 49px;
+background: #FFFFFF;
+border-radius: 0px;
+}
+
+/* img botão nave*/
+button .button_1 {
+position: absolute;
+width: 33px;
+height: 33px;
+left: 1371px;
+top: 55px;
+background: url(login.png);
+}
+
+/* Aside */
+
+.image_1 {
+position: absolute;
+width: 262px;
+height: 144px;
+left: 1176px;
+top: 155px;
+background: url(male-farmer-with-harvest-pumpkins-watermelons-his-farm.jpg);
+border-radius: 20px 20px 0px 0px;
+}
+
+.txt {
+    background-color: #FFF159;
+    position: absolute;
+    width: 262px;
+    height: 80px;
+    left: 1176px;
+    top: 303px;
+    opacity: 0.4;
+}
+
+.p_1 {
+position: absolute;
+width: 103px;
+height: 24px;
+left: 1180px;
+top: 309px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.p_2 {
+position: absolute;
+width: 259px;
+height: 38px;
+left: 1179px;
+top: 336px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+.link_aside {
+position: absolute;
+width: 67px;
+height: 16px;
+left: calc(50% - 67px/2 + 503.5px);
+top: 393px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+/*css pedro*/

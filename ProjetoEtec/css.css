@@ -203,3 +203,25 @@ text-align: center;
 color: #FFFFFF;
 }
 /*css pedro*/
+
+/*css victor*/
+.success-stories {
+        width: 70%;
+        padding: 20px;
+        background-color: #fdf4a3;
+    }
+
+    .success-stories h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+containir {
+        display: flex;
+        max-width: 1000px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
